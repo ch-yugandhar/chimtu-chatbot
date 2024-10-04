@@ -2,7 +2,7 @@ import streamlit as st
 from chatbot import handle_chat
 
 # Set the title of the web app
-st.title("Chimtu Chatbot :dog2:")
+st.title("Echo Chatbot")
 
 # Initialize chat history if not present
 if "messages" not in st.session_state:
@@ -19,7 +19,7 @@ if prompt := st.chat_input("Hi! Enter your question or type 'BYE' to exit"):
         with st.chat_message("user"):
             st.markdown(prompt)
         with st.chat_message("assistant"):
-            st.markdown("Goodbye!")
+            st.markdown("Bye!")
         # Clear the session state chat history
         st.session_state.messages = []
     else:
