@@ -36,7 +36,7 @@ def handle_chat(user_input) -> str:
 
 # Main function to handle interactive command-line chat
 if __name__ == "__main__":
-    print("Welcome to Ollama chatbot, press 'Q' to exit!")
+    print("Welcome to Echo chatbot, press 'Q' to exit!")
     while True:
         # Take user input from the console
         user_input = input("Enter your question: ")
