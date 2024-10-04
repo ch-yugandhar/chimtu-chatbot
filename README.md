@@ -1,7 +1,7 @@
 
-# Chimtu Chatbot 🤖
+# Echo Chatbot 🤖
 
-Chimtu Chatbot is a conversational AI application built using [Langchain](https://python.langchain.com/en/latest/), [Streamlit](https://streamlit.io/), and the [Ollama LLM](https://ollama.com/). The chatbot provides concise answers based on user questions while maintaining a chat history. It uses a pre-defined large language model to answer questions and avoids fabricating responses when sufficient information is unavailable.
+Echo Chatbot is a conversational AI application built using [Langchain](https://python.langchain.com/en/latest/), [Streamlit](https://streamlit.io/), and the [Ollama LLM](https://ollama.com/). The chatbot provides concise answers based on user questions while maintaining a chat history. It uses a pre-defined large language model to answer questions and avoids fabricating responses when sufficient information is unavailable.
 
 ## Features
 
@@ -28,8 +28,8 @@ pip install langchain streamlit ollama
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/chimtu-chatbot.git
-   cd chimtu-chatbot
+   git clone https://github.com/yourusername/Echo-chatbot.git
+   cd Echo-chatbot
    ```
 
 2. **Run the Streamlit App**:
@@ -46,7 +46,7 @@ pip install langchain streamlit ollama
 ## Project Structure
 
 ```
-chimtu-chatbot/
+Echo-chatbot/
 │
 ├── utils.py            # Contains helper functions for loading the language model.
 ├── chatbot.py          # Core chatbot logic handling user input and responses.
